@@ -2,12 +2,13 @@
 
 number = int(input('Введите номер четверти '))
 
-if number > 0 or number < 5:
-    if number == 1:
-        print('x > 0; y > 0')
-    if number == 2:
-        print('x < 0; y > 0')
-    if number == 3:
-        print('x < 0; y < 0')
-    if number == 4:
-        print('x > 0; y < 0')
+if number == 1:
+    print('x > 0; y > 0')
+elif number == 2:
+    print('x < 0; y > 0')
+elif number == 3:
+    print('x < 0; y < 0')
+elif number == 4:
+    print('x > 0; y < 0')
+else:
+    print('введите от 1 до 4')
