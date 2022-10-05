@@ -8,3 +8,6 @@ y1 = int(input('Введите координату y1 '))
 y2 = int(input('Введите координату y2 '))
 distance = ((x1 - y1) ** 2 + (x2 - y2) ** 2) ** (0.5)
 print(format(distance, '.2f'))
+
+# еще
+print(round(((x1 - y1) ** 2 + (x2 - y2) ** 2) ** (0.5), 2))
