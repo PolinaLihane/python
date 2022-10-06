@@ -20,14 +20,14 @@ print()
 number = int(input('Введите число: '))
 sum = 0
 for i in range(1, number + 1):
-    sum += (1 + 1 / i) ** i
+     sum += (1 + 1 / i) ** i
 print(sum)
 
 #4 Задайте список из N элементов, заполненных числами из промежутка [-N, N]. 
 # Найдите произведение элементов на указанных позициях. Позиции хранятся в файле file.txt в одной строке одно число.
 
 number = int(input('Введите число: '))
-from random import randint
+from random import randint #
 result = 1
 ar = []
 for i in range(number):
