@@ -12,3 +12,11 @@ def to_bin(N):
 N = int(input('введите число:'))
 to_bin(N)
 
+# еще решение
+
+N = int(input('введите число'))
+s = ''
+while N > 0:
+    s = str(N % 2) + s
+    N = N // 2  # N >>= 1 битовый сдвиг вправо
+print(s)

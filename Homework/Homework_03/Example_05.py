@@ -16,3 +16,22 @@ print(ne_fib(N))
 
 for i in range(-N, N + 1):
      print(ne_fib(i), end=' ')
+
+
+#еще решение
+
+def fib(n):
+    if not n:
+        return 0 # n
+    if n < 0:
+        return (-1) ** (-n + 1) * fib(-n)
+    if n in (1, 2):
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+
+neg_fib = []
+for i in range(-N, N + 1):
+    neg_fib.append(fib(i))
+
+print(neg_fib)

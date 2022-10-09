@@ -58,7 +58,7 @@ for i in range(-a,a+1):
 
 a=float(input("Введите а"))
 if a - int(a) ==0:
-    print(нет)
+    print('нет')
 else:
     num=int((a-int(a))*10)
     print(num)
