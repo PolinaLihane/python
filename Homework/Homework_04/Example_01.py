@@ -1,3 +1,7 @@
 # Вычислить число c заданной точностью d
 
-d = float(input('Введите d: '))
+from decimal import Decimal
+
+digit = Decimal(input('Введите число: '))
+digit = digit.quantize(Decimal(input('Введите точность d:')))
+print(digit)
