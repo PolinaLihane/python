@@ -22,13 +22,17 @@ words = re.split('\W+', s)  #'\W+' хоть сколько пробелов ра
 
 ex = ["а", "б", "в"]
 
-for i in range(len(words)):
-    if words[i].find(ex[0]) != -1 and words[i].find(ex[1]) != -1 and words[i].find(ex[2]) != -1:
-        words[i] = None
+#for i in range(len(words)):
+#    if words[i].find(ex[0]) != -1 and words[i].find(ex[1]) != -1 and words[i].find(ex[2]) != -1:
+#        words[i] = None
 # print (' '.join(words))
-words = [txt for txt in words if txt]
-print(*words)
-
+#words = [txt for txt in words if txt]
+#print(*words)
+for i in range(len(words)-1, -1, -1):
+    if words[i].find(ex[0]) != -1 and words[i].find(ex[1]) != -1 and words[i].find(ex[2]) != -1:
+        #print(words.pop(i))
+        del words[i]
+print(words)
 # еще
 text ='xnj nj yfgbcfyj'
 
