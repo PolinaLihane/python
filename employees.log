@@ -1,0 +1,17 @@
+[23.10.2022 14:44:13 ] [INFO] [main] [<module>: 6] => Start
+[23.10.2022 14:44:18 ] [INFO] [UI] [ls_menu: 23] => The user has selected item number 1
+[23.10.2022 14:45:00 ] [INFO] [UI] [ls_menu: 65] => The user has selected item number 5
+[23.10.2022 14:45:06 ] [INFO] [UI] [ls_menu: 67] => User entered: Polina
+[23.10.2022 14:45:16 ] [INFO] [UI] [ls_menu: 69] => User entered: Tiurina
+[23.10.2022 14:45:21 ] [INFO] [UI] [ls_menu: 71] => User entered: 8800000
+[23.10.2022 14:45:33 ] [INFO] [UI] [ls_menu: 73] => User entered: polin@list.ru
+[23.10.2022 14:45:41 ] [INFO] [UI] [ls_menu: 75] => User entered: 1000000
+[23.10.2022 14:45:47 ] [INFO] [UI] [ls_menu: 77] => User entered: lid
+[23.10.2022 14:45:50 ] [INFO] [UI] [ls_menu: 23] => The user has selected item number 1
+[23.10.2022 14:47:05 ] [WARNING] [UI] [сheck_number: 181] => User entered an invalid menu value: & C:/Users/golland/AppData/Local/Programs/Python/Python310/python.exe c:/Users/golland/Desktop/git/Python/python/Homework/Homework_08/main.py
+[23.10.2022 14:47:10 ] [INFO] [UI] [ls_menu: 169] => End
+[23.10.2022 14:47:14 ] [INFO] [main] [<module>: 6] => Start
+[23.10.2022 14:47:20 ] [INFO] [UI] [ls_menu: 23] => The user has selected item number 1
+[23.10.2022 14:47:25 ] [INFO] [UI] [ls_menu: 43] => The user has selected item number 3
+[23.10.2022 14:47:29 ] [INFO] [UI] [ls_menu: 45] => User entered: o
+[23.10.2022 14:47:49 ] [INFO] [UI] [ls_menu: 169] => End
